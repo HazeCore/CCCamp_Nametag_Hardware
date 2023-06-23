@@ -1,0 +1,14 @@
+(footprint "needle" (version 20221018) (generator pcbnew)
+  (layer "F.Cu")
+  (attr smd)
+  (fp_text reference "REF**" (at 0 -6.6 unlocked) (layer "F.SilkS") hide
+      (effects (font (size 1 1) (thickness 0.1)))
+    (tstamp 71bb7e75-953e-48b1-8520-3677bc07cb77)
+  )
+  (fp_text value "needle" (at 0 -5.1 unlocked) (layer "F.Fab") hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    (tstamp cda47987-16fc-4187-8128-2adc274750e8)
+  )
+  (pad "1" smd roundrect (at 0 0) (size 25 5) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.25)
+    (thermal_bridge_angle 45) (tstamp 97bec835-4e6e-4294-98cf-e6473685b245))
+)
